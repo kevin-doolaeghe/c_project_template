@@ -36,7 +36,7 @@ rebuild : clean build
 #####################################################
 
 $(OBJDIR)/%.o : $(SRCDIR)/%.c
-	$(CC) -o $@ -c $< $(CFLAGS) $(INCLUDES)
+	$(CC) -o $@ -c $< $(CFLAGS)
 
 $(EXEC) : $(OBJ)
 	$(CC) -o $@ $^ $(LDFLAGS)
