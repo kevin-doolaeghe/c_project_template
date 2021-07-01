@@ -1,1 +1,1 @@
-# c_program_template
+# Template de projet en C
